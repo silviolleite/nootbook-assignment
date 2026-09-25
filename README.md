@@ -18,7 +18,14 @@ Install dependencies:
 pip install openai qdrant-client transformers==4.48.0 tavily-python faiss-cpu torch
 ```
 
-Set API keys:
+Set API keys via `.env`:
+
+```bash
+cp .env-example .env
+# edit .env with your keys
+```
+
+Or export them directly:
 
 ```bash
 export OPENAI_API_KEY="sk-..."
