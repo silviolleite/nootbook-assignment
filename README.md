@@ -15,7 +15,8 @@ Extension of the [Agentic Router notebook](https://github.com/hamzafarooq/multi-
 Install dependencies:
 
 ```bash
-pip install openai qdrant-client transformers==4.48.0 tavily-python faiss-cpu torch
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
 Set API keys via `.env`:
