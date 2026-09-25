@@ -70,3 +70,6 @@ notebook
 ipykernel
 nest_asyncio
 einops
+ipywidgets==8.1.9
+jupyterlab_widgets==3.0.17
+widgetsnbextension==4.0.16

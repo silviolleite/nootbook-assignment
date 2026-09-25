@@ -8,7 +8,7 @@ Extension of the [Agentic Router notebook](https://github.com/hamzafarooq/multi-
 ## Requirements
 
 - Python 3.10+
-- The `Agentic_RAG/qdrant_data` folder (pre-built vector collections) placed alongside this notebook.
+- `git` on PATH — the pre-built Qdrant collections (`Agentic_RAG/qdrant_data`) are sparse-cloned from the course repo on first run.
 
 ## Setup
 
@@ -39,7 +39,7 @@ export TAVILY_API_KEY="tvly-..."
 jupyter notebook agentic_router.ipynb
 ```
 
-On **Google Colab**, the notebook detects the environment and clones the data automatically — no manual setup needed.
+The Qdrant data is downloaded automatically on first run, locally or on **Google Colab**.
 
 ## Notebook structure
 
